@@ -1,0 +1,15 @@
+~ main
+Player: [[H|iHello|Howdy]], what is your name?
+Zombie: Growl
+- Are you a nice zombie?
+	Zombie: Growl
+Are you going to eat my brains?
+	Zombie: Growl
+- End of conversation => END!
+Player: I guess i have to shoot you, now.
+set Global.shoot()
+
+
+
+
+=> END
